@@ -22,3 +22,8 @@ result := parallel.Map(input, func(v int) string {
 
 // Output: [-1- -2- -3- -4-]
 ```
+
+## Motivation
+
+- I grew tired of implementing it for each project
+- [Popular libraries](https://github.com/samber/lo/blob/7887963db823866bbe86fb8330ccb9ae5972655a/parallel/slice.go#L13-L14) just create as many workers as there are items in the input slice which is not efficient
