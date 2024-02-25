@@ -1,10 +1,11 @@
 package parallel_test
 
 import (
-	"go-slice-helpers/parallel"
 	"reflect"
 	"strconv"
 	"testing"
+
+	"github.com/eugen-bondarev/go-slice-helpers/parallel"
 )
 
 func normalMap[T any, U any](input []T, mutate func(input T) U) []U {
