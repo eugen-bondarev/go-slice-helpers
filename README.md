@@ -1,4 +1,4 @@
-# JS-like slice functions that run in parallel and use as much hardware as possible
+# JS-like slice helper functions that run in parallel and use as much hardware as possible
 
 ## TLDR
 
