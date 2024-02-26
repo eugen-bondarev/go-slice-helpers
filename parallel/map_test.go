@@ -18,7 +18,7 @@ func normalMap[T any, U any](input []T, mutate func(input T) U) []U {
 	return output
 }
 
-func TestMap(t *testing.T) {
+func Test_Map(t *testing.T) {
 	type testCase struct {
 		input    []int
 		callback func(v int) string
